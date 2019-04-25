@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Área do Triangulo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+ <ion-content>
+   <ion-img src ="../../assets/img/triangulo.jpg" ></ion-img>
+   <ion-imput [(ngModel)] = "base" ></ion-imput>
+   <ion-imput [(ngModel)] = "altura"></ion-imput>
+   <ion-button expand = "full" (click) = "calcular()"></ion-button>
+   {{ resultado }}
+  </ion-content>
